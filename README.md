@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=200&section=header&text=Geeth%20Rangika%20Pelpola&fontSize=40&fontColor=ffffff&fontAlignY=35&desc=Software%20Engineering%20Undergraduate%20%7C%20BI%20%26%20Generative%20AI&descSize=16&descAlignY=55&animation=fadeIn" />
+# 👋 Hi, I am Geeth Rangika Pelpola
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Business+Intelligence+Enthusiast;Generative+AI+Developer;IEEE+Vice-Chairperson+%7C+SLTC;Final-Year+Software+Engineering+Student)](https://git.io/typing-svg)
 
@@ -95,6 +95,8 @@ geeth = {
 <img src="https://github-readme-stats.vercel.app/api?username=geeth-rp&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geeth-rp&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
 
+<br/>
+
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=geeth-rp&theme=tokyonight&hide_border=true" height="165"/>
 
 </div>
@@ -111,4 +113,4 @@ geeth = {
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,50:16213e,100:1a1a2e&height=120&section=footer" />
+<br/>

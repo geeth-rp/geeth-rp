@@ -2,7 +2,7 @@
 
 # 👋 Hi, I am Geeth Rangika Pelpola
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Business+Intelligence+Enthusiast;Generative+AI+Developer;IEEE+Vice-Chairperson+%7C+SLTC;Final-Year+Software+Engineering+Student)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Business+Intelligence+Enthusiast;Generative+AI+%26+UI%2FUX+Designer;AI+Content+Creator;IEEE+Volunteer;Final-Year+Software+Engineering+Student)](https://git.io/typing-svg)
 
 <br/>
 
@@ -21,8 +21,9 @@
 geeth = {
     "role"      : "Final-Year Software Engineering Undergraduate @ SLTC",
     "focus"     : ["Business Intelligence", "Generative AI", "Data Analytics"],
-    "ieee"      : "Vice-Chairperson — IEEE CS Student Branch Chapter, SLTC",
-    "business"  : "Founder — Pixlore AI Studio (AI Fashion Platform)",
+    "ieee"      : "IEEE Volunteer — IEEE CS Student Branch Chapter, SLTC",
+    "design"    : "UI/UX Designer & Digital Creative",
+    "business"  : "Founder — Pixlore AI Studio (AI Fashion & Content Platform)",
     "location"  : "Matale, Sri Lanka",
     "email"     : "pelpolageeth@gmail.com"
 }

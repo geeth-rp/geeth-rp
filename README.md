@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I am Geeth Rangika Pelpola
+# Hi, I am Geeth Rangika Pelpola
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Business+Intelligence+Enthusiast;Generative+AI+%26+UI%2FUX+Designer;AI+Content+Creator;IEEE+Volunteer;Final-Year+Software+Engineering+Student)](https://git.io/typing-svg)
 
@@ -15,7 +15,7 @@
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 ```python
 geeth = {
@@ -46,19 +46,24 @@ geeth = {
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
 
-### 🤖 Generative AI Tools
+###  Generative AI Tools & Models
 ![ComfyUI](https://img.shields.io/badge/ComfyUI-000000?style=for-the-badge&logo=ai&logoColor=white)
+![Flux](https://img.shields.io/badge/Flux-6B46C1?style=for-the-badge&logo=ai&logoColor=white)
+![Z Image Turbo](https://img.shields.io/badge/Z_Image_Turbo-FF6B35?style=for-the-badge&logo=ai&logoColor=white)
+![Qwen](https://img.shields.io/badge/Qwen-1677FF?style=for-the-badge&logo=alibaba-cloud&logoColor=white)
+![Minimax](https://img.shields.io/badge/Minimax-000000?style=for-the-badge&logo=ai&logoColor=white)
+![Kling AI](https://img.shields.io/badge/Kling_AI-FF4B4B?style=for-the-badge&logo=ai&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-### 🌐 Web & Mobile
+### Web & Mobile
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### ⚙️ Tools & Platforms
+###  Tools & Platforms
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
@@ -67,29 +72,29 @@ geeth = {
 
 ---
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 | Project | Description | Tech | Link |
 |---|---|---|---|
-| 🧠 **CogniGuide (FYP)** | Metacognition-oriented AI agent using Socratic questioning to foster critical thinking in teenagers 13–18 | Flutter, Python, Flask, Supabase, OpenAI | Ongoing |
-| 🏥 **SmartCare** | ML pipeline for 30-day hospital readmission prediction — ROC-AUC 0.942, 100% recall | Python, XGBoost, SHAP, Streamlit | [GitHub](https://github.com/omega-u20/SmartCare-HospitalManagement) |
-| 🔬 **OGBN-Arxiv GNN** | GCN & GAT node classification on 169K-node citation dataset with explainability dashboard | PyTorch, PyTorch Geometric, Streamlit | [GitHub](https://github.com/geeth-rp/CCS4354-OGBN-Arxiv-GNN) |
-| 👗 **Pixlore AI Studio** | AI-driven fashion platform — customers buy AI-generated images, videos & custom model packages | React 19, Vite, TypeScript, Tailwind CSS | [Website](https://pixlore-web.vercel.app/) |
-| 🏙️ **Utopia** | Smart city civic platform with real-time reporting, payments & location-based services | Flutter, React, Node.js | [GitHub](https://github.com/omega-u20/utopia) |
+|  **CogniGuide (FYP)** | Metacognition-oriented AI agent using Socratic questioning to foster critical thinking in teenagers 13–18 | Flutter, Python, Flask, Supabase, OpenAI | Ongoing |
+|  **SmartCare** | ML pipeline for 30-day hospital readmission prediction — ROC-AUC 0.942, 100% recall | Python, XGBoost, SHAP, Streamlit | [GitHub](https://github.com/omega-u20/SmartCare-HospitalManagement) |
+|  **OGBN-Arxiv GNN** | GCN & GAT node classification on 169K-node citation dataset with explainability dashboard | PyTorch, PyTorch Geometric, Streamlit | [GitHub](https://github.com/geeth-rp/CCS4354-OGBN-Arxiv-GNN) |
+|  **Pixlore AI Studio** | AI-driven fashion platform — customers buy AI-generated images, videos & custom model packages | React 19, Vite, TypeScript, Tailwind CSS | [Website](https://pixlore-web.vercel.app/) |
+|  **Utopia** | Smart city civic platform with real-time reporting, payments & location-based services | Flutter, React, Node.js | [GitHub](https://github.com/omega-u20/utopia) |
 
 ---
 
-## 🏆 Certifications
+##  Certifications
 
-- 📊 **Business Analysis Basics** — Simplilearn SkillUp &nbsp; [![View](https://img.shields.io/badge/View-4CAF50?style=flat-square)](https://simpli-web.app.link/e/PsqS2x9iK6b)
-- 💾 **SQL (Basic)** — HackerRank &nbsp; [![View](https://img.shields.io/badge/View-2EC866?style=flat-square)](https://www.hackerrank.com/certificates/8d37badcae27)
-- 👨‍💻 **Software Engineer Intern** — HackerRank &nbsp; [![View](https://img.shields.io/badge/View-2EC866?style=flat-square)](https://www.hackerrank.com/certificates/3a4c8c02dac8)
-- 🏅 **Certificate of Appreciation** — Vice-Chairperson, IEEE CS Student Branch Chapter, SLTC &nbsp; [![View](https://img.shields.io/badge/View-0077B5?style=flat-square)](https://drive.google.com/file/d/1jLO6BqpjdSUvk0l3no3-NB6fjBd717Ba/view?usp=sharing)
-- 🎓 **IEEE Membership** — IEEE Student Branch of SLTC &nbsp; [![View](https://img.shields.io/badge/View-0077B5?style=flat-square)](https://drive.google.com/file/d/1td8-l1EJp5S5t-UdjpesT4918HUrOrdX/view?usp=sharing)
+-  **Business Analysis Basics** — Simplilearn SkillUp &nbsp; [![View](https://img.shields.io/badge/View-4CAF50?style=flat-square)](https://simpli-web.app.link/e/PsqS2x9iK6b)
+-  **SQL (Basic)** — HackerRank &nbsp; [![View](https://img.shields.io/badge/View-2EC866?style=flat-square)](https://www.hackerrank.com/certificates/8d37badcae27)
+-  **Software Engineer Intern** — HackerRank &nbsp; [![View](https://img.shields.io/badge/View-2EC866?style=flat-square)](https://www.hackerrank.com/certificates/3a4c8c02dac8)
+-  **Certificate of Appreciation** — Vice-Chairperson, IEEE CS Student Branch Chapter, SLTC &nbsp; [![View](https://img.shields.io/badge/View-0077B5?style=flat-square)](https://drive.google.com/file/d/1jLO6BqpjdSUvk0l3no3-NB6fjBd717Ba/view?usp=sharing)
+-  **IEEE Membership** — IEEE Student Branch of SLTC &nbsp; [![View](https://img.shields.io/badge/View-0077B5?style=flat-square)](https://drive.google.com/file/d/1td8-l1EJp5S5t-UdjpesT4918HUrOrdX/view?usp=sharing)
 
 ---
 
-## 📈 GitHub Stats
+##  GitHub Stats
 
 <div align="center">
 
@@ -104,7 +109,7 @@ geeth = {
 
 ---
 
-## 🤝 Connect With Me
+##  Connect With Me
 
 <div align="center">
 

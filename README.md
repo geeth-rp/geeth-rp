@@ -1,122 +1,180 @@
 <div align="center">
 
-# Hi, I am Geeth Rangika Pelpola
+<!-- SYSTEM HUD HEADER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=09090b&height=180&section=header&text=GEETH%20RANGIKA%20PELPOLA&fontSize=38&fontAlignY=36&fontColor=10b981&desc=%5B%20SYSTEM%20ONLINE%20//%20PORTFOLIO%20SPEC%20v2.4%20%5D&descSize=13&descAlignY=58&descColor=71717a" width="100%" alt="Header Banner" />
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Business+Intelligence+Enthusiast;Generative+AI+%26+UI%2FUX+Designer;AI+Content+Creator;IEEE+Volunteer;Final-Year+Software+Engineering+Student)](https://git.io/typing-svg)
+<!-- DYNAMIC TYPING HUD -->
+<a href="https://portfolio-geeth.vercel.app/">
+  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&size=20&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&multiline=false&width=750&height=45&lines=Business+Analyst+%7C+UI%2FUX+Designer+%7C+Full-Stack+Developer;IEEE+Vice+Chairperson+%7C+Digital+Product+Strategist;Generative+AI+%26+BI+Enthusiast;Founder+%40+Pixlore+AI+Studio" alt="Typing SVG" />
+</a>
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Geeth-Rangika-Pelpola)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://portfolio-geeth.vercel.app/)
-[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/profile/Geeth_rp)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pelpolageeth@gmail.com)
+<!-- STATUS & CONNECT HUD BADGES -->
+<p align="center">
+  <a href="https://linkedin.com/in/Geeth-Rangika-Pelpola">
+    <img src="https://img.shields.io/badge/LINKEDIN-09090b?style=for-the-badge&logo=linkedin&logoColor=10b981&labelColor=000000" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://portfolio-geeth.vercel.app/">
+    <img src="https://img.shields.io/badge/PORTFOLIO-09090b?style=for-the-badge&logo=vercel&logoColor=38bdf8&labelColor=000000" alt="Portfolio" />
+  </a>
+  &nbsp;
+  <a href="mailto:pelpolageeth@gmail.com">
+    <img src="https://img.shields.io/badge/DISPATCH%20EMAIL-09090b?style=for-the-badge&logo=gmail&logoColor=10b981&labelColor=000000" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://www.hackerrank.com/profile/Geeth_rp">
+    <img src="https://img.shields.io/badge/HACKERRANK-09090b?style=for-the-badge&logo=hackerrank&logoColor=06b6d4&labelColor=000000" alt="HackerRank" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE%20%E2%97%8F-09090b?style=flat-square&logoColor=10b981&color=10b981" alt="Status Active" />
+  <img src="https://img.shields.io/badge/FOCUS-BI%20%7C%20AI%20%7C%20UI%2FUX-09090b?style=flat-square&color=38bdf8" alt="Focus" />
+  <img src="https://img.shields.io/badge/LOCATION-MATALE%2C%20SRI%20LANKA-09090b?style=flat-square&color=71717a" alt="Location" />
+</p>
 
 </div>
 
+<br/>
+
 ---
 
-## About Me
+### `[ SEC // 01 ]` INITIALIZE PROFILE & TELEMETRY
 
 ```python
-geeth = {
-    "role"      : "Final-Year Software Engineering Undergraduate @ SLTC",
-    "focus"     : ["Business Intelligence", "Generative AI", "Data Analytics"],
-    "ieee"      : "IEEE Volunteer — IEEE CS Student Branch Chapter, SLTC",
-    "design"    : "UI/UX Designer & Digital Creative",
-    "business"  : "Founder — Pixlore AI Studio (AI Fashion & Content Platform)",
-    "location"  : "Matale, Sri Lanka",
-    "email"     : "pelpolageeth@gmail.com"
-}
+class GeethRangikaPelpola:
+    """
+    HUD Profile Matrix // Final-Year Software Engineering Undergraduate @ SLTC
+    """
+    def __init__(self):
+        self.identity   = "Geeth Rangika Pelpola"
+        self.core_focus = ["Business Analysis", "Generative AI", "Data Analytics & BI", "UI/UX"]
+        self.leadership = "IEEE Volunteer & Vice-Chairperson — CS Student Branch Chapter, SLTC"
+        self.venture    = "Founder — Pixlore AI Studio (AI Fashion & Creative Platform)"
+        self.status     = "Available for high-impact roles & technical collaborations"
+        self.terminal   = "pelpolageeth@gmail.com"
 ```
 
 ---
 
-## 🛠️ Tech Stack
+### `[ SEC // 02 ]` TECH STACK & ARSENAL
 
-### 📊 BI & Data
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Google Analytics](https://img.shields.io/badge/Google_Analytics-E37400?style=for-the-badge&logo=google-analytics&logoColor=white)
+#### `[ SEC // 10 ]` Frontend Architecture & Web Systems
+<p align="left">
+  <img src="https://img.shields.io/badge/React_19-09090b?style=for-the-badge&logo=react&logoColor=38bdf8&labelColor=000000" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-09090b?style=for-the-badge&logo=typescript&logoColor=38bdf8&labelColor=000000" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-09090b?style=for-the-badge&logo=javascript&logoColor=facc15&labelColor=000000" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Vite-09090b?style=for-the-badge&logo=vite&logoColor=8b5cf6&labelColor=000000" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-09090b?style=for-the-badge&logo=tailwindcss&logoColor=06b6d4&labelColor=000000" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Node.js-09090b?style=for-the-badge&logo=node.js&logoColor=10b981&labelColor=000000" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Flutter-09090b?style=for-the-badge&logo=flutter&logoColor=02569B&labelColor=000000" alt="Flutter" />
+</p>
 
-### 🐍 Languages & Libraries
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+#### `[ SEC // 20 ]` UI/UX & Product Design
+<p align="left">
+  <img src="https://img.shields.io/badge/Figma-09090b?style=for-the-badge&logo=figma&logoColor=f97316&labelColor=000000" alt="Figma" />
+  <img src="https://img.shields.io/badge/Wireframing-09090b?style=for-the-badge&logo=wire&logoColor=10b981&labelColor=000000" alt="Wireframing" />
+  <img src="https://img.shields.io/badge/User_Research-09090b?style=for-the-badge&logo=google&logoColor=38bdf8&labelColor=000000" alt="User Research" />
+  <img src="https://img.shields.io/badge/Interactive_Prototyping-09090b?style=for-the-badge&logo=invision&logoColor=10b981&labelColor=000000" alt="Prototyping" />
+  <img src="https://img.shields.io/badge/Design_Systems-09090b?style=for-the-badge&logo=adobe&logoColor=8b5cf6&labelColor=000000" alt="Design Systems" />
+</p>
 
-###  Generative AI Tools & Models
-![ComfyUI](https://img.shields.io/badge/ComfyUI-000000?style=for-the-badge&logo=ai&logoColor=white)
-![Flux](https://img.shields.io/badge/Flux-6B46C1?style=for-the-badge&logo=ai&logoColor=white)
-![Z Image Turbo](https://img.shields.io/badge/Z_Image_Turbo-FF6B35?style=for-the-badge&logo=ai&logoColor=white)
-![Qwen](https://img.shields.io/badge/Qwen-1677FF?style=for-the-badge&logo=alibaba-cloud&logoColor=white)
-![Minimax](https://img.shields.io/badge/Minimax-000000?style=for-the-badge&logo=ai&logoColor=white)
-![Kling AI](https://img.shields.io/badge/Kling_AI-FF4B4B?style=for-the-badge&logo=ai&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+#### `[ SEC // 30 ]` Business Analysis, BI & Data Systems
+<p align="left">
+  <img src="https://img.shields.io/badge/Power_BI-09090b?style=for-the-badge&logo=powerbi&logoColor=facc15&labelColor=000000" alt="Power BI" />
+  <img src="https://img.shields.io/badge/SQL_Querying-09090b?style=for-the-badge&logo=mysql&logoColor=06b6d4&labelColor=000000" alt="SQL" />
+  <img src="https://img.shields.io/badge/Python_Analytics-09090b?style=for-the-badge&logo=python&logoColor=10b981&labelColor=000000" alt="Python" />
+  <img src="https://img.shields.io/badge/Process_Modeling-09090b?style=for-the-badge&logo=diagramsdotnet&logoColor=38bdf8&labelColor=000000" alt="Process Modeling" />
+  <img src="https://img.shields.io/badge/Pandas-09090b?style=for-the-badge&logo=pandas&logoColor=8b5cf6&labelColor=000000" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-09090b?style=for-the-badge&logo=numpy&logoColor=06b6d4&labelColor=000000" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-09090b?style=for-the-badge&logo=scikitlearn&logoColor=f97316&labelColor=000000" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/Streamlit-09090b?style=for-the-badge&logo=streamlit&logoColor=ff4b4b&labelColor=000000" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/Google_Analytics-09090b?style=for-the-badge&logo=googleanalytics&logoColor=f97316&labelColor=000000" alt="Google Analytics" />
+</p>
 
-### Web & Mobile
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+#### `[ SEC // 35 ]` Generative AI & Creative Models
+<p align="left">
+  <img src="https://img.shields.io/badge/ComfyUI-09090b?style=for-the-badge&logo=ai&logoColor=10b981&labelColor=000000" alt="ComfyUI" />
+  <img src="https://img.shields.io/badge/Flux_Models-09090b?style=for-the-badge&logo=ai&logoColor=8b5cf6&labelColor=000000" alt="Flux" />
+  <img src="https://img.shields.io/badge/Qwen_LLM-09090b?style=for-the-badge&logo=alibabacloud&logoColor=38bdf8&labelColor=000000" alt="Qwen" />
+  <img src="https://img.shields.io/badge/OpenAI_API-09090b?style=for-the-badge&logo=openai&logoColor=10b981&labelColor=000000" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/Google_Gemini-09090b?style=for-the-badge&logo=googlegemini&logoColor=38bdf8&labelColor=000000" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Kling_AI-09090b?style=for-the-badge&logo=ai&logoColor=ff4b4b&labelColor=000000" alt="Kling AI" />
+  <img src="https://img.shields.io/badge/Z_Image_Turbo-09090b?style=for-the-badge&logo=ai&logoColor=f97316&labelColor=000000" alt="Z Image Turbo" />
+</p>
 
-###  Tools & Platforms
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-
----
-
-##  Featured Projects
-
-| Project | Description | Tech | Link |
-|---|---|---|---|
-|  **CogniGuide (FYP)** | Metacognition-oriented AI agent using Socratic questioning to foster critical thinking in teenagers 13–18 | Flutter, Python, Flask, Supabase, OpenAI | Ongoing |
-|  **SmartCare** | ML pipeline for 30-day hospital readmission prediction — ROC-AUC 0.942, 100% recall | Python, XGBoost, SHAP, Streamlit | [GitHub](https://github.com/omega-u20/SmartCare-HospitalManagement) |
-|  **OGBN-Arxiv GNN** | GCN & GAT node classification on 169K-node citation dataset with explainability dashboard | PyTorch, PyTorch Geometric, Streamlit | [GitHub](https://github.com/geeth-rp/CCS4354-OGBN-Arxiv-GNN) |
-|  **Pixlore AI Studio** | AI-driven fashion platform — customers buy AI-generated images, videos & custom model packages | React 19, Vite, TypeScript, Tailwind CSS | [Website](https://pixlore-web.vercel.app/) |
-|  **Utopia** | Smart city civic platform with real-time reporting, payments & location-based services | Flutter, React, Node.js | [GitHub](https://github.com/omega-u20/utopia) |
-
----
-
-##  Certifications
-
--  **Business Analysis Basics** — Simplilearn SkillUp &nbsp; [![View](https://img.shields.io/badge/View-4CAF50?style=flat-square)](https://simpli-web.app.link/e/PsqS2x9iK6b)
--  **SQL (Basic)** — HackerRank &nbsp; [![View](https://img.shields.io/badge/View-2EC866?style=flat-square)](https://www.hackerrank.com/certificates/8d37badcae27)
--  **Software Engineer Intern** — HackerRank &nbsp; [![View](https://img.shields.io/badge/View-2EC866?style=flat-square)](https://www.hackerrank.com/certificates/3a4c8c02dac8)
--  **Certificate of Appreciation** — Vice-Chairperson, IEEE CS Student Branch Chapter, SLTC &nbsp; [![View](https://img.shields.io/badge/View-0077B5?style=flat-square)](https://drive.google.com/file/d/1jLO6BqpjdSUvk0l3no3-NB6fjBd717Ba/view?usp=sharing)
--  **IEEE Membership** — IEEE Student Branch of SLTC &nbsp; [![View](https://img.shields.io/badge/View-0077B5?style=flat-square)](https://drive.google.com/file/d/1td8-l1EJp5S5t-UdjpesT4918HUrOrdX/view?usp=sharing)
+#### `[ SEC // 40 ]` Leadership & Credentials
+<p align="left">
+  <img src="https://img.shields.io/badge/IEEE_Member_2026-09090b?style=for-the-badge&logo=ieee&logoColor=00629B&labelColor=000000" alt="IEEE Member" />
+  <img src="https://img.shields.io/badge/IEEE_Computer_Society-09090b?style=for-the-badge&logo=ieee&logoColor=10b981&labelColor=000000" alt="IEEE CS" />
+  <img src="https://img.shields.io/badge/Vice_Chairperson_SLTC-09090b?style=for-the-badge&logo=ieee&logoColor=38bdf8&labelColor=000000" alt="Vice Chairperson" />
+</p>
 
 ---
 
-##  GitHub Stats
+### `[ SEC // 03 ]` REPOSITORIES & FEATURED SYSTEMS
+
+| System Identifier | Core Description | Tech Stack | Access Point |
+| :--- | :--- | :--- | :---: |
+| **CogniGuide (FYP)** | Metacognition-oriented AI agent using Socratic dialogue to foster critical thinking in adolescents | `Flutter` `Python` `Flask` `Supabase` `OpenAI` | `🟢 Ongoing` |
+| **SmartCare** | Predictive clinical ML pipeline for 30-day hospital readmission — ROC-AUC 0.942, 100% recall | `Python` `XGBoost` `SHAP` `Streamlit` | [**Codebase**](https://github.com/omega-u20/SmartCare-HospitalManagement) |
+| **OGBN-Arxiv GNN** | GCN & GAT node classification across 169K citation graph with explainability matrix | `PyTorch` `PyG` `Streamlit` `GNN` | [**Codebase**](https://github.com/geeth-rp/CCS4354-OGBN-Arxiv-GNN) |
+| **Pixlore AI Studio** | Commercial AI digital fashion & generation platform with custom workflows & package licensing | `React 19` `Vite` `TypeScript` `Tailwind CSS` | [**Live Site**](https://pixlore-web.vercel.app/) |
+| **Utopia Civic Engine** | Smart city municipal civic platform featuring incident tracking, payment gateway & geospatial services | `Flutter` `React` `Node.js` `Express` | [**Codebase**](https://github.com/omega-u20/utopia) |
+
+---
+
+### `[ SEC // 04 ]` VERIFIED CERTIFICATIONS
+
+- 🟢 **Business Analysis Basics** — *Simplilearn SkillUp* &nbsp; [ [Verification](https://simpli-web.app.link/e/PsqS2x9iK6b) ]
+- 🟢 **SQL (Basic) Certification** — *HackerRank* &nbsp; [ [Verification](https://www.hackerrank.com/certificates/8d37badcae27) ]
+- 🟢 **Software Engineer Intern** — *HackerRank* &nbsp; [ [Verification](https://www.hackerrank.com/certificates/3a4c8c02dac8) ]
+- 🟢 **Certificate of Appreciation (Vice-Chairperson)** — *IEEE CS Student Branch Chapter, SLTC* &nbsp; [ [Verification](https://drive.google.com/file/d/1jLO6BqpjdSUvk0l3no3-NB6fjBd717Ba/view?usp=sharing) ]
+- 🟢 **Official IEEE Membership 2026** — *IEEE Student Branch of SLTC* &nbsp; [ [Verification](https://drive.google.com/file/d/1td8-l1EJp5S5t-UdjpesT4918HUrOrdX/view?usp=sharing) ]
+
+---
+
+### `[ SEC // 05 ]` TELEMETRY & STATS MATRIX
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=geeth-rp&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geeth-rp&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=geeth-rp&show_icons=true&bg_color=000000&title_color=10b981&text_color=e4e4e7&icon_color=38bdf8&border_color=10b981&hide_border=false&count_private=true" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=geeth-rp&layout=compact&bg_color=000000&title_color=10b981&text_color=e4e4e7&border_color=10b981&hide_border=false" height="165" alt="Top Languages" />
+</p>
 
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=geeth-rp&theme=tokyonight&hide_border=true" height="165"/>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=geeth-rp&background=000000&ring=10b981&fire=10b981&currStreakLabel=10b981&sideLabels=38bdf8&dates=71717a&currStreakNum=ffffff&sideNums=ffffff&border=10b981&hide_border=false" height="165" alt="GitHub Streak" />
+</p>
 
 </div>
 
 ---
 
-##  Connect With Me
+### `[ SEC // 06 ]` DISPATCH & COMMS LINK
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/Geeth-Rangika-Pelpola)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_My_Work-FF5722?style=for-the-badge&logo=google-chrome)](https://portfolio-geeth.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-Get_In_Touch-D14836?style=for-the-badge&logo=gmail)](mailto:pelpolageeth@gmail.com)
+<br/>
+
+<a href="https://linkedin.com/in/Geeth-Rangika-Pelpola">
+  <img src="https://img.shields.io/badge/LINKEDIN-ESTABLISH_CONNECTION-09090b?style=for-the-badge&logo=linkedin&logoColor=10b981&labelColor=000000" alt="LinkedIn" />
+</a>
+&nbsp;
+<a href="https://portfolio-geeth.vercel.app/">
+  <img src="https://img.shields.io/badge/PORTFOLIO-ENTER_EXPERIENCE-09090b?style=for-the-badge&logo=vercel&logoColor=38bdf8&labelColor=000000" alt="Portfolio" />
+</a>
+&nbsp;
+<a href="mailto:pelpolageeth@gmail.com">
+  <img src="https://img.shields.io/badge/ENCRYPTED_EMAIL-TRANSMIT_INQUIRY-09090b?style=for-the-badge&logo=gmail&logoColor=10b981&labelColor=000000" alt="Email" />
+</a>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=09090b&height=90&section=footer" width="100%" alt="Footer Banner" />
 
 </div>
-
-<br/>

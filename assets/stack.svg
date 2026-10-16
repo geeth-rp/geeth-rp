@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-label="Skills board: Analyze, Insight, Design, Build, Gen-AI">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
+    </pattern>
+    <clipPath id="panelClip"><rect x="10" y="10" width="1180" height="460" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', Consolas, Menlo, monospace; }
+    .pulse { animation: pulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(.7); } }
+    .card { opacity: 0; animation: card .5s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes card { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    .hl { stroke-opacity: 0; animation: hl 10s ease-in-out infinite; }
+    @keyframes hl { 0%,100% { stroke-opacity: 0; } 5%,15% { stroke-opacity: .9; } 22% { stroke-opacity: 0; } }
+  </style>
+  <rect x="10" y="10" width="1180" height="460" rx="22" fill="#0a0a0c"/>
+  <rect x="10" y="10" width="1180" height="460" fill="url(#grid)" clip-path="url(#panelClip)"/>
+  <rect x="10.5" y="10.5" width="1179" height="459" rx="22" fill="none" stroke="#1f1f24"/>
+  <text class="mono" x="50" y="58" font-size="12" fill="#34d399" letter-spacing="4">// 02 — TOOLKIT</text>
+  <text class="sans" x="50" y="96" font-size="30" font-weight="800" fill="#fafafa" letter-spacing="-.5">Skills, organised like a sprint board</text>
+  <rect x="954" y="42" width="196" height="28" rx="14" fill="#34d399" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.35"/>
+  <circle class="pulse" cx="972" cy="56" r="3.5" fill="#34d399"/>
+  <text class="mono" x="984" y="60" font-size="11" fill="#6ee7b7">5 columns · 33 cards</text>
+  <rect x="50" y="120" width="208" height="332" rx="12" fill="#0f0f12" stroke="#1d1d22"/>
+  <circle cx="68" cy="142" r="4" fill="#fbbf24"/>
+  <text class="mono" x="80" y="146" font-size="11" font-weight="700" fill="#e4e4e7" letter-spacing="2">ANALYZE</text>
+  <rect x="218" y="133" width="26" height="18" rx="9" fill="#1d1d22"/>
+  <text class="mono" x="231" y="146" font-size="10" fill="#a1a1aa" text-anchor="middle">7</text>
+  <g class="card" style="animation-delay:0.15s">
+    <rect x="60" y="164" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect class="hl" style="animation-delay:0.0s" x="60" y="164" width="188" height="32" rx="8" fill="none" stroke="#fbbf24"/>
+    <rect x="60" y="173" width="2.5" height="14" rx="1.25" fill="#fbbf24"/>
+    <text class="sans" x="74" y="185" font-size="13" fill="#e4e4e7">Requirements Gathering</text>
+  </g>
+  <g class="card" style="animation-delay:0.22s">
+    <rect x="60" y="204" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="60" y="213" width="2.5" height="14" rx="1.25" fill="#fbbf24"/>
+    <text class="sans" x="74" y="225" font-size="13" fill="#e4e4e7">Process Modeling</text>
+  </g>
+  <g class="card" style="animation-delay:0.29s">
+    <rect x="60" y="244" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="60" y="253" width="2.5" height="14" rx="1.25" fill="#fbbf24"/>
+    <text class="sans" x="74" y="265" font-size="13" fill="#e4e4e7">Stakeholder Mgmt</text>
+  </g>
+  <g class="card" style="animation-delay:0.36s">
+    <rect x="60" y="284" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="60" y="293" width="2.5" height="14" rx="1.25" fill="#fbbf24"/>
+    <text class="sans" x="74" y="305" font-size="13" fill="#e4e4e7">Agile / Scrum</text>
+  </g>
+  <g class="card" style="animation-delay:0.43s">
+    <rect x="60" y="324" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="60" y="333" width="2.5" height="14" rx="1.25" fill="#fbbf24"/>
+    <text class="sans" x="74" y="345" font-size="13" fill="#e4e4e7">BABOK Fundamentals</text>
+  </g>
+  <g class="card" style="animation-delay:0.50s">
+    <rect x="60" y="364" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="60" y="373" width="2.5" height="14" rx="1.25" fill="#fbbf24"/>
+    <text class="sans" x="74" y="385" font-size="13" fill="#e4e4e7">Jira · GitHub Projects</text>
+  </g>
+  <g class="card" style="animation-delay:0.57s">
+    <rect x="60" y="404" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="60" y="413" width="2.5" height="14" rx="1.25" fill="#fbbf24"/>
+    <text class="sans" x="74" y="425" font-size="13" fill="#e4e4e7">Docs &amp; Reporting</text>
+  </g>
+  <rect x="273" y="120" width="208" height="332" rx="12" fill="#0f0f12" stroke="#1d1d22"/>
+  <circle cx="291" cy="142" r="4" fill="#38bdf8"/>
+  <text class="mono" x="303" y="146" font-size="11" font-weight="700" fill="#e4e4e7" letter-spacing="2">INSIGHT</text>
+  <rect x="441" y="133" width="26" height="18" rx="9" fill="#1d1d22"/>
+  <text class="mono" x="454" y="146" font-size="10" fill="#a1a1aa" text-anchor="middle">7</text>
+  <g class="card" style="animation-delay:0.27s">
+    <rect x="283" y="164" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="283" y="173" width="2.5" height="14" rx="1.25" fill="#38bdf8"/>
+    <text class="sans" x="297" y="185" font-size="13" fill="#e4e4e7">Power BI</text>
+  </g>
+  <g class="card" style="animation-delay:0.34s">
+    <rect x="283" y="204" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="283" y="213" width="2.5" height="14" rx="1.25" fill="#38bdf8"/>
+    <text class="sans" x="297" y="225" font-size="13" fill="#e4e4e7">SQL</text>
+  </g>
+  <g class="card" style="animation-delay:0.41s">
+    <rect x="283" y="244" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect class="hl" style="animation-delay:2.0s" x="283" y="244" width="188" height="32" rx="8" fill="none" stroke="#38bdf8"/>
+    <rect x="283" y="253" width="2.5" height="14" rx="1.25" fill="#38bdf8"/>
+    <text class="sans" x="297" y="265" font-size="13" fill="#e4e4e7">Excel</text>
+  </g>
+  <g class="card" style="animation-delay:0.48s">
+    <rect x="283" y="284" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="283" y="293" width="2.5" height="14" rx="1.25" fill="#38bdf8"/>
+    <text class="sans" x="297" y="305" font-size="13" fill="#e4e4e7">Google Analytics</text>
+  </g>
+  <g class="card" style="animation-delay:0.55s">
+    <rect x="283" y="324" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="283" y="333" width="2.5" height="14" rx="1.25" fill="#38bdf8"/>
+    <text class="sans" x="297" y="345" font-size="13" fill="#e4e4e7">Pandas · NumPy</text>
+  </g>
+  <g class="card" style="animation-delay:0.62s">
+    <rect x="283" y="364" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="283" y="373" width="2.5" height="14" rx="1.25" fill="#38bdf8"/>
+    <text class="sans" x="297" y="385" font-size="13" fill="#e4e4e7">Scikit-learn · XGBoost</text>
+  </g>
+  <g class="card" style="animation-delay:0.69s">
+    <rect x="283" y="404" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="283" y="413" width="2.5" height="14" rx="1.25" fill="#38bdf8"/>
+    <text class="sans" x="297" y="425" font-size="13" fill="#e4e4e7">Streamlit</text>
+  </g>
+  <rect x="496" y="120" width="208" height="332" rx="12" fill="#0f0f12" stroke="#1d1d22"/>
+  <circle cx="514" cy="142" r="4" fill="#f472b6"/>
+  <text class="mono" x="526" y="146" font-size="11" font-weight="700" fill="#e4e4e7" letter-spacing="2">DESIGN</text>
+  <rect x="664" y="133" width="26" height="18" rx="9" fill="#1d1d22"/>
+  <text class="mono" x="677" y="146" font-size="10" fill="#a1a1aa" text-anchor="middle">5</text>
+  <g class="card" style="animation-delay:0.39s">
+    <rect x="506" y="164" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="506" y="173" width="2.5" height="14" rx="1.25" fill="#f472b6"/>
+    <text class="sans" x="520" y="185" font-size="13" fill="#e4e4e7">Figma</text>
+  </g>
+  <g class="card" style="animation-delay:0.46s">
+    <rect x="506" y="204" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="506" y="213" width="2.5" height="14" rx="1.25" fill="#f472b6"/>
+    <text class="sans" x="520" y="225" font-size="13" fill="#e4e4e7">User Research</text>
+  </g>
+  <g class="card" style="animation-delay:0.53s">
+    <rect x="506" y="244" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="506" y="253" width="2.5" height="14" rx="1.25" fill="#f472b6"/>
+    <text class="sans" x="520" y="265" font-size="13" fill="#e4e4e7">Wireframing</text>
+  </g>
+  <g class="card" style="animation-delay:0.60s">
+    <rect x="506" y="284" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="506" y="293" width="2.5" height="14" rx="1.25" fill="#f472b6"/>
+    <text class="sans" x="520" y="305" font-size="13" fill="#e4e4e7">Prototyping</text>
+  </g>
+  <g class="card" style="animation-delay:0.67s">
+    <rect x="506" y="324" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect class="hl" style="animation-delay:4.0s" x="506" y="324" width="188" height="32" rx="8" fill="none" stroke="#f472b6"/>
+    <rect x="506" y="333" width="2.5" height="14" rx="1.25" fill="#f472b6"/>
+    <text class="sans" x="520" y="345" font-size="13" fill="#e4e4e7">Design Systems</text>
+  </g>
+  <rect x="719" y="120" width="208" height="332" rx="12" fill="#0f0f12" stroke="#1d1d22"/>
+  <circle cx="737" cy="142" r="4" fill="#34d399"/>
+  <text class="mono" x="749" y="146" font-size="11" font-weight="700" fill="#e4e4e7" letter-spacing="2">BUILD</text>
+  <rect x="887" y="133" width="26" height="18" rx="9" fill="#1d1d22"/>
+  <text class="mono" x="900" y="146" font-size="10" fill="#a1a1aa" text-anchor="middle">7</text>
+  <g class="card" style="animation-delay:0.51s">
+    <rect x="729" y="164" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="729" y="173" width="2.5" height="14" rx="1.25" fill="#34d399"/>
+    <text class="sans" x="743" y="185" font-size="13" fill="#e4e4e7">React 19</text>
+  </g>
+  <g class="card" style="animation-delay:0.58s">
+    <rect x="729" y="204" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="729" y="213" width="2.5" height="14" rx="1.25" fill="#34d399"/>
+    <text class="sans" x="743" y="225" font-size="13" fill="#e4e4e7">TypeScript</text>
+  </g>
+  <g class="card" style="animation-delay:0.65s">
+    <rect x="729" y="244" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="729" y="253" width="2.5" height="14" rx="1.25" fill="#34d399"/>
+    <text class="sans" x="743" y="265" font-size="13" fill="#e4e4e7">Python · Flask</text>
+  </g>
+  <g class="card" style="animation-delay:0.72s">
+    <rect x="729" y="284" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="729" y="293" width="2.5" height="14" rx="1.25" fill="#34d399"/>
+    <text class="sans" x="743" y="305" font-size="13" fill="#e4e4e7">Flutter · Dart</text>
+  </g>
+  <g class="card" style="animation-delay:0.79s">
+    <rect x="729" y="324" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="729" y="333" width="2.5" height="14" rx="1.25" fill="#34d399"/>
+    <text class="sans" x="743" y="345" font-size="13" fill="#e4e4e7">Node.js</text>
+  </g>
+  <g class="card" style="animation-delay:0.86s">
+    <rect x="729" y="364" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="729" y="373" width="2.5" height="14" rx="1.25" fill="#34d399"/>
+    <text class="sans" x="743" y="385" font-size="13" fill="#e4e4e7">Tailwind CSS</text>
+  </g>
+  <g class="card" style="animation-delay:0.93s">
+    <rect x="729" y="404" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect class="hl" style="animation-delay:6.0s" x="729" y="404" width="188" height="32" rx="8" fill="none" stroke="#34d399"/>
+    <rect x="729" y="413" width="2.5" height="14" rx="1.25" fill="#34d399"/>
+    <text class="sans" x="743" y="425" font-size="13" fill="#e4e4e7">Supabase</text>
+  </g>
+  <rect x="942" y="120" width="208" height="332" rx="12" fill="#0f0f12" stroke="#1d1d22"/>
+  <circle cx="960" cy="142" r="4" fill="#a78bfa"/>
+  <text class="mono" x="972" y="146" font-size="11" font-weight="700" fill="#e4e4e7" letter-spacing="2">GEN-AI</text>
+  <rect x="1110" y="133" width="26" height="18" rx="9" fill="#1d1d22"/>
+  <text class="mono" x="1123" y="146" font-size="10" fill="#a1a1aa" text-anchor="middle">7</text>
+  <g class="card" style="animation-delay:0.63s">
+    <rect x="952" y="164" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="952" y="173" width="2.5" height="14" rx="1.25" fill="#a78bfa"/>
+    <text class="sans" x="966" y="185" font-size="13" fill="#e4e4e7">Claude · Claude Code</text>
+  </g>
+  <g class="card" style="animation-delay:0.70s">
+    <rect x="952" y="204" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect class="hl" style="animation-delay:8.0s" x="952" y="204" width="188" height="32" rx="8" fill="none" stroke="#a78bfa"/>
+    <rect x="952" y="213" width="2.5" height="14" rx="1.25" fill="#a78bfa"/>
+    <text class="sans" x="966" y="225" font-size="13" fill="#e4e4e7">ComfyUI</text>
+  </g>
+  <g class="card" style="animation-delay:0.77s">
+    <rect x="952" y="244" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="952" y="253" width="2.5" height="14" rx="1.25" fill="#a78bfa"/>
+    <text class="sans" x="966" y="265" font-size="13" fill="#e4e4e7">Flux · Qwen · Wan</text>
+  </g>
+  <g class="card" style="animation-delay:0.84s">
+    <rect x="952" y="284" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="952" y="293" width="2.5" height="14" rx="1.25" fill="#a78bfa"/>
+    <text class="sans" x="966" y="305" font-size="13" fill="#e4e4e7">Kling AI · Minimax</text>
+  </g>
+  <g class="card" style="animation-delay:0.91s">
+    <rect x="952" y="324" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="952" y="333" width="2.5" height="14" rx="1.25" fill="#a78bfa"/>
+    <text class="sans" x="966" y="345" font-size="13" fill="#e4e4e7">Google Gemini</text>
+  </g>
+  <g class="card" style="animation-delay:0.98s">
+    <rect x="952" y="364" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="952" y="373" width="2.5" height="14" rx="1.25" fill="#a78bfa"/>
+    <text class="sans" x="966" y="385" font-size="13" fill="#e4e4e7">OpenAI API</text>
+  </g>
+  <g class="card" style="animation-delay:1.05s">
+    <rect x="952" y="404" width="188" height="32" rx="8" fill="#151519" stroke="#25252b"/>
+    <rect x="952" y="413" width="2.5" height="14" rx="1.25" fill="#a78bfa"/>
+    <text class="sans" x="966" y="425" font-size="13" fill="#e4e4e7">Z Image Turbo</text>
+  </g>
+</svg>

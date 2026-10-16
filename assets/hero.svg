@@ -20,10 +20,6 @@
       <stop offset="0.45" stop-color="#a78bfa"/>
       <stop offset="1" stop-color="#4c1d95"/>
     </radialGradient>
-    <linearGradient id="barGrad" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0" stop-color="#34d399"/>
-      <stop offset="1" stop-color="#34d399" stop-opacity="0.15"/>
-    </linearGradient>
     <clipPath id="panelClip"><rect x="10" y="10" width="1180" height="450" rx="22"/></clipPath>
     <clipPath id="storyClip">
       <rect x="718" y="344" width="0" height="50">
@@ -67,11 +63,7 @@
       100% { transform: translate(1080px, 440px); opacity: 0; }
     }
 
-    .bar { transform-box: fill-box; transform-origin: bottom; animation: bar 4.5s ease-in-out infinite; }
-    @keyframes bar { 0% { transform: scaleY(.15); } 35%,75% { transform: scaleY(1); } 100% { transform: scaleY(.15); } }
 
-    .spark { stroke-dasharray: 260; stroke-dashoffset: 260; animation: spark 4.5s ease-in-out infinite; }
-    @keyframes spark { 0% { stroke-dashoffset: 260; } 40%,80% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -260; } }
 
     .orb { animation: orb 3s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
     @keyframes orb { 0%,100% { transform: scale(1); } 50% { transform: scale(1.18); } }
@@ -128,32 +120,82 @@
   </g>
 
   <!-- right: canvas composition -->
-  <!-- card A: insights dashboard -->
+  <!-- card A: analyst owl -->
+  <style>
+    .owl { transform-box: fill-box; transform-origin: 50% 100%; animation: tilt 6s ease-in-out infinite; }
+    @keyframes tilt { 0%,20%,100% { transform: rotate(0deg); } 28%,42% { transform: rotate(-7deg); } 52%,66% { transform: rotate(6deg); } 74% { transform: rotate(0deg); } }
+    .pupil { animation: look 6s ease-in-out infinite; }
+    @keyframes look { 0%,20%,100% { transform: translate(0,0); } 28%,42% { transform: translate(-4px,-1px); } 52%,66% { transform: translate(4px,1px); } 74% { transform: translate(0,0); } }
+    .lid { transform-box: fill-box; transform-origin: 50% 0%; transform: scaleY(0); animation: blink 4s infinite; }
+    @keyframes blink { 0%,90%,100% { transform: scaleY(0); } 94% { transform: scaleY(1); } }
+    .wing { transform-box: fill-box; transform-origin: 50% 10%; animation: wave 9s ease-in-out infinite; }
+    @keyframes wave { 0%,62%,100% { transform: rotate(0deg); } 66% { transform: rotate(-38deg); } 70% { transform: rotate(-18deg); } 74% { transform: rotate(-38deg); } 78% { transform: rotate(0deg); } }
+    .msg { opacity: 0; animation: msg 9s infinite; }
+    .m1 { animation-delay: 0s; } .m2 { animation-delay: 3s; } .m3 { animation-delay: 6s; }
+    @keyframes msg { 0% { opacity: 0; transform: translateY(4px); } 4%,30% { opacity: 1; transform: translateY(0); } 34%,100% { opacity: 0; transform: translateY(-4px); } }
+    .twinkle { animation: twinkle 3s ease-in-out infinite; }
+    @keyframes twinkle { 0%,100% { opacity: .15; } 50% { opacity: .9; } }
+    .leaf { transform-box: fill-box; transform-origin: 0% 50%; animation: sway 4s ease-in-out infinite; }
+    @keyframes sway { 0%,100% { transform: rotate(0deg); } 50% { transform: rotate(-14deg); } }
+  </style>
   <g class="float1">
     <g class="rise r3">
       <rect x="700" y="102" width="450" height="190" rx="14" fill="#111114" stroke="#232329"/>
-      <text class="mono" x="722" y="130" font-size="11" fill="#71717a" letter-spacing="1">▤ insights.pbix</text>
+      <text class="mono" x="722" y="130" font-size="11" fill="#71717a" letter-spacing="1">◉ analyst-owl.fig</text>
       <circle cx="1112" cy="126" r="3" fill="#3f3f46"/><circle cx="1122" cy="126" r="3" fill="#3f3f46"/><circle cx="1132" cy="126" r="3" fill="#3f3f46"/>
       <line x1="700" y1="142" x2="1150" y2="142" stroke="#1d1d22"/>
 
-      <text class="sans" x="722" y="190" font-size="36" font-weight="800" fill="#fafafa" letter-spacing="-1">0.942</text>
-      <text class="mono" x="722" y="210" font-size="11" fill="#71717a">ROC-AUC · SmartCare</text>
-      <text class="mono" x="836" y="190" font-size="11" fill="#34d399">▲ recall 100%</text>
+      <!-- twinkles -->
+      <circle class="twinkle" cx="740" cy="168" r="1.6" fill="#34d399"/>
+      <circle class="twinkle" style="animation-delay:1s" cx="902" cy="160" r="1.4" fill="#38bdf8"/>
+      <circle class="twinkle" style="animation-delay:2s" cx="760" cy="230" r="1.2" fill="#a78bfa"/>
+      <circle class="twinkle" style="animation-delay:.5s" cx="1130" cy="250" r="1.4" fill="#34d399"/>
 
-      <polyline class="spark" points="722,270 750,258 776,262 802,244 828,248 854,230 880,236" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <line x1="722" y1="276" x2="880" y2="276" stroke="#232329"/>
+      <!-- branch -->
+      <path d="M722 268 Q 820 260 920 266" fill="none" stroke="#3f3f46" stroke-width="5" stroke-linecap="round"/>
+      <path class="leaf" d="M878 265 q 14 -12 26 -4 q -12 12 -26 4 Z" fill="#34d399" fill-opacity="0.7"/>
+      <path class="leaf" style="animation-delay:1.3s" d="M736 268 q 12 10 24 4 q -10 -12 -24 -4 Z" fill="#34d399" fill-opacity="0.5"/>
 
-      <g>
-        <rect class="bar" style="animation-delay:0s"   x="912"  y="236" width="16" height="40" rx="3" fill="url(#barGrad)"/>
-        <rect class="bar" style="animation-delay:.1s"  x="940"  y="214" width="16" height="62" rx="3" fill="url(#barGrad)"/>
-        <rect class="bar" style="animation-delay:.2s"  x="968"  y="226" width="16" height="50" rx="3" fill="url(#barGrad)"/>
-        <rect class="bar" style="animation-delay:.3s"  x="996"  y="196" width="16" height="80" rx="3" fill="url(#barGrad)"/>
-        <rect class="bar" style="animation-delay:.4s"  x="1024" y="206" width="16" height="70" rx="3" fill="url(#barGrad)"/>
-        <rect class="bar" style="animation-delay:.5s"  x="1052" y="180" width="16" height="96" rx="3" fill="url(#barGrad)"/>
-        <rect class="bar" style="animation-delay:.6s"  x="1080" y="188" width="16" height="88" rx="3" fill="url(#barGrad)"/>
-        <rect class="bar" style="animation-delay:.7s"  x="1108" y="166" width="16" height="110" rx="3" fill="url(#barGrad)"/>
+      <!-- owl -->
+      <g class="owl">
+        <!-- tufts -->
+        <path d="M790 184 L784 160 L804 176 Z" fill="#26262d"/>
+        <path d="M850 184 L856 160 L836 176 Z" fill="#26262d"/>
+        <!-- body -->
+        <ellipse cx="820" cy="216" rx="40" ry="48" fill="#1f1f25" stroke="#2f2f37" stroke-width="1.5"/>
+        <ellipse cx="820" cy="232" rx="24" ry="28" fill="#27272e"/>
+        <path d="M810 226 l5 5 l5 -5 M820 226 l5 5 l5 -5 M813 240 l5 5 l5 -5 M823 240 l4 4 M808 240 l3 3 M815 253 l5 5 l5 -5" fill="none" stroke="#34d399" stroke-opacity="0.35" stroke-width="1.4" stroke-linecap="round"/>
+        <!-- wings -->
+        <path d="M782 206 Q 772 232 786 254 Q 792 232 790 208 Z" fill="#18181d"/>
+        <path class="wing" d="M858 206 Q 868 232 854 254 Q 848 232 850 208 Z" fill="#18181d"/>
+        <!-- glasses + eyes -->
+        <circle cx="804" cy="200" r="14" fill="#0a0a0c" stroke="#34d399" stroke-width="2"/>
+        <circle cx="836" cy="200" r="14" fill="#0a0a0c" stroke="#34d399" stroke-width="2"/>
+        <line x1="818" y1="199" x2="822" y2="199" stroke="#34d399" stroke-width="2"/>
+        <g class="pupil">
+          <circle cx="804" cy="200" r="5.5" fill="#fafafa"/>
+          <circle cx="836" cy="200" r="5.5" fill="#fafafa"/>
+          <circle cx="805.5" cy="198.5" r="1.6" fill="#0a0a0c"/>
+          <circle cx="837.5" cy="198.5" r="1.6" fill="#0a0a0c"/>
+        </g>
+        <circle class="lid" cx="804" cy="200" r="13" fill="#1f1f25"/>
+        <circle class="lid" cx="836" cy="200" r="13" fill="#1f1f25"/>
+        <!-- beak -->
+        <path d="M815 210 L825 210 L820 220 Z" fill="#fbbf24"/>
+        <!-- feet -->
+        <path d="M806 263 l-3 6 M810 263 l0 7 M814 263 l3 6 M826 263 l-3 6 M830 263 l0 7 M834 263 l3 6" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
       </g>
-      <line x1="906" y1="276" x2="1130" y2="276" stroke="#232329"/>
+
+      <!-- speech bubble -->
+      <rect x="912" y="166" width="214" height="52" rx="12" fill="#16161b" stroke="#2a2a31"/>
+      <path d="M914 196 L900 206 L918 204 Z" fill="#16161b" stroke="#2a2a31" stroke-linejoin="round"/>
+      <rect x="913" y="194" width="8" height="12" fill="#16161b"/>
+      <text class="sans msg m1" x="930" y="197" font-size="14" fill="#e4e4e7">Hoo's the stakeholder?</text>
+      <text class="sans msg m2" x="930" y="197" font-size="14" fill="#e4e4e7">Asking "why?" × 5 …</text>
+      <text class="sans msg m3" x="930" y="197" font-size="14" fill="#e4e4e7">Ship it? Hoo-ray!</text>
+
+      <text class="mono" x="944" y="248" font-size="10" fill="#71717a">mood: curious</text>
+      <text class="mono" x="944" y="264" font-size="10" fill="#71717a">coffee: <tspan fill="#34d399">■■■</tspan><tspan fill="#3f3f46">■■</tspan></text>
     </g>
   </g>
 

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-label="Have a problem worth solving? Let's map it, design it, ship it.">
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="textGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" x2="1">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="panelClip"><rect x="10" y="10" width="1180" height="270" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', Consolas, Menlo, monospace; }
+    .glow { animation: breathe 5s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes breathe { 0%,100% { transform: scale(1); opacity: .8; } 50% { transform: scale(1.15); opacity: 1; } }
+    .caret { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .beam { animation: beam 5s cubic-bezier(.6,0,.4,1) infinite; }
+    @keyframes beam { from { transform: translateX(-300px); } to { transform: translateX(1200px); } }
+  </style>
+
+  <rect x="10" y="10" width="1180" height="270" rx="22" fill="#0a0a0c"/>
+  <g clip-path="url(#panelClip)">
+    <rect x="10" y="10" width="1180" height="270" fill="url(#dots)"/>
+    <ellipse class="glow" cx="600" cy="150" rx="420" ry="160" fill="url(#glow)"/>
+    <rect class="beam" x="0" y="279" width="300" height="1.5" fill="url(#beam)"/>
+  </g>
+  <rect x="10.5" y="10.5" width="1179" height="269" rx="22" fill="none" stroke="#1f1f24"/>
+
+  <text class="mono" x="600" y="70" font-size="12" fill="#34d399" letter-spacing="4" text-anchor="middle">// 06 — LET'S CONNECT</text>
+  <text class="sans" x="600" y="132" font-size="42" font-weight="800" fill="#fafafa" letter-spacing="-1" text-anchor="middle">Have a problem worth solving?</text>
+  <text class="sans" x="600" y="178" font-size="24" font-weight="600" fill="url(#textGrad)" text-anchor="middle">Let's map it, design it, ship it.</text>
+  <rect class="caret" x="772" y="158" width="3" height="26" fill="#38bdf8"/>
+
+  <text class="mono" x="600" y="232" font-size="12" fill="#71717a" text-anchor="middle" letter-spacing="1">pelpolageeth@gmail.com  ·  portfolio-geeth.vercel.app  ·  Matale, Sri Lanka</text>
+</svg>

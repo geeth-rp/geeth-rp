@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="28" viewBox="0 0 1200 28" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="beam" x1="0" x2="1">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="track"><rect x="40" y="12" width="1120" height="4"/></clipPath>
+  </defs>
+  <style>
+    .beam { animation: beam 4s cubic-bezier(.6,0,.4,1) infinite; }
+    @keyframes beam { from { transform: translateX(-260px); } to { transform: translateX(1200px); } }
+  </style>
+  <line x1="40" y1="14" x2="1160" y2="14" stroke="#27272a"/>
+  <g clip-path="url(#track)">
+    <rect class="beam" x="0" y="13" width="260" height="2" fill="url(#beam)"/>
+  </g>
+  <circle cx="600" cy="14" r="3" fill="#0a0a0c" stroke="#34d399" stroke-width="1.5"/>
+</svg>

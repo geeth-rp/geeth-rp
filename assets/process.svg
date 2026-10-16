@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-label="How I work: the Double Diamond — Discover, Define, Develop, Deliver">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
+    </pattern>
+    <radialGradient id="dotGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="panelClip"><rect x="10" y="10" width="1180" height="350" rx="22"/></clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', Consolas, Menlo, monospace; }
+
+    .phase { opacity: .32; animation: phase 8s linear infinite; }
+    .zone  { fill-opacity: 0; animation: zone 8s linear infinite; }
+    .d1 { animation-delay: 0s; } .d2 { animation-delay: 2s; } .d3 { animation-delay: 4s; } .d4 { animation-delay: 6s; }
+    @keyframes phase { 0%,23% { opacity: 1; } 27%,100% { opacity: .32; } }
+    @keyframes zone  { 0%,23% { fill-opacity: .09; } 27%,100% { fill-opacity: 0; } }
+
+    .outline { stroke-dasharray: 6 6; animation: march 1.2s linear infinite; }
+    @keyframes march { to { stroke-dashoffset: -12; } }
+
+    .pulse { animation: pulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .35; transform: scale(.7); } }
+  </style>
+
+  <rect x="10" y="10" width="1180" height="350" rx="22" fill="#0a0a0c"/>
+  <rect x="10" y="10" width="1180" height="350" fill="url(#grid)" clip-path="url(#panelClip)"/>
+  <rect x="10.5" y="10.5" width="1179" height="349" rx="22" fill="none" stroke="#1f1f24"/>
+
+  <!-- header -->
+  <text class="mono" x="50" y="58" font-size="12" fill="#34d399" letter-spacing="4">// 01 — HOW I WORK</text>
+  <text class="sans" x="50" y="96" font-size="30" font-weight="800" fill="#fafafa" letter-spacing="-.5">From a fuzzy brief to a shipped product</text>
+  <rect x="980" y="42" width="170" height="28" rx="14" fill="#34d399" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.35"/>
+  <circle class="pulse" cx="998" cy="56" r="3.5" fill="#34d399"/>
+  <text class="mono" x="1010" y="60" font-size="11" fill="#6ee7b7">double-diamond.md</text>
+
+  <!-- phase zones (highlight in sync with the dots) -->
+  <polygon class="zone d1" points="100,225 350,145 350,305" fill="#34d399"/>
+  <polygon class="zone d2" points="350,145 600,225 350,305" fill="#34d399"/>
+  <polygon class="zone d3" points="600,225 850,145 850,305" fill="#38bdf8"/>
+  <polygon class="zone d4" points="850,145 1100,225 850,305" fill="#38bdf8"/>
+
+  <!-- diamonds -->
+  <path class="outline" d="M100 225 L350 145 L600 225 L350 305 Z" fill="none" stroke="#34d399" stroke-opacity="0.45" stroke-width="1.5"/>
+  <path class="outline" d="M600 225 L850 145 L1100 225 L850 305 Z" fill="none" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1.5"/>
+  <line x1="350" y1="145" x2="350" y2="305" stroke="#ffffff" stroke-opacity="0.05"/>
+  <line x1="850" y1="145" x2="850" y2="305" stroke="#ffffff" stroke-opacity="0.05"/>
+
+  <!-- phase labels -->
+  <g class="phase d1">
+    <text class="sans" x="270" y="222" font-size="17" font-weight="700" fill="#fafafa" text-anchor="middle">Discover</text>
+    <text class="mono" x="270" y="242" font-size="10" fill="#6ee7b7" text-anchor="middle">interviews · research</text>
+  </g>
+  <g class="phase d2">
+    <text class="sans" x="432" y="222" font-size="17" font-weight="700" fill="#fafafa" text-anchor="middle">Define</text>
+    <text class="mono" x="432" y="242" font-size="10" fill="#6ee7b7" text-anchor="middle">requirements · BRD</text>
+  </g>
+  <g class="phase d3">
+    <text class="sans" x="770" y="222" font-size="17" font-weight="700" fill="#fafafa" text-anchor="middle">Develop</text>
+    <text class="mono" x="770" y="242" font-size="10" fill="#7dd3fc" text-anchor="middle">wireframes · build</text>
+  </g>
+  <g class="phase d4">
+    <text class="sans" x="932" y="222" font-size="17" font-weight="700" fill="#fafafa" text-anchor="middle">Deliver</text>
+    <text class="mono" x="932" y="242" font-size="10" fill="#7dd3fc" text-anchor="middle">ship · measure</text>
+  </g>
+
+  <!-- milestones on the spine -->
+  <circle cx="100" cy="225" r="5" fill="#0a0a0c" stroke="#34d399" stroke-width="2"/>
+  <circle cx="600" cy="225" r="5" fill="#0a0a0c" stroke="#a1a1aa" stroke-width="2"/>
+  <circle cx="1100" cy="225" r="5" fill="#0a0a0c" stroke="#38bdf8" stroke-width="2"/>
+  <text class="mono" x="100" y="258" font-size="10" fill="#71717a" text-anchor="middle" letter-spacing="1.5">BRIEF</text>
+  <text class="mono" x="600" y="258" font-size="10" fill="#71717a" text-anchor="middle" letter-spacing="1.5">SPEC</text>
+  <text class="mono" x="1100" y="258" font-size="10" fill="#71717a" text-anchor="middle" letter-spacing="1.5">PRODUCT</text>
+
+  <!-- travelling dots: diverge, converge, diverge, converge -->
+  <g>
+    <circle r="14" fill="url(#dotGlow)"/>
+    <circle r="4.5" fill="#34d399"/>
+    <animateMotion dur="8s" repeatCount="indefinite" path="M100 225 L350 145 L600 225 L850 145 L1100 225"/>
+  </g>
+  <g>
+    <circle r="14" fill="url(#dotGlow)"/>
+    <circle r="4.5" fill="#38bdf8"/>
+    <animateMotion dur="8s" repeatCount="indefinite" path="M100 225 L350 305 L600 225 L850 305 L1100 225"/>
+  </g>
+
+  <!-- spaces -->
+  <text class="mono" x="350" y="336" font-size="10" fill="#52525b" text-anchor="middle" letter-spacing="3">PROBLEM SPACE</text>
+  <text class="mono" x="850" y="336" font-size="10" fill="#52525b" text-anchor="middle" letter-spacing="3">SOLUTION SPACE</text>
+</svg>
